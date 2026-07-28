@@ -14,7 +14,8 @@
 
 ## Данные
 
-Использован датасет **PetFinder.my Adoption Prediction** с Kaggle.
+Использован датасет **PetFinder.my Adoption Prediction** с Kaggle:
+https://www.kaggle.com/competitions/petfinder-adoption-prediction
 
 Датасет содержит информацию о животных из приютов:
 - возраст;
@@ -57,6 +58,13 @@ pet-adoption-analysis
 ├── diploma.ipynb
 ├── presentation.pdf
 └── README.md
+└── images
+    ├── category_distribution1.png
+    ├── category_distribution2.png
+    ├── feature_importance.png
+    ├── model_comparison.png
+    ├── shap_analysis.png
+    └── target_distribution.png
 
 ## Результаты моделирования
 
@@ -73,6 +81,30 @@ pet-adoption-analysis
 Несмотря на более высокий показатель QWK у RandomForest, модель показала сильное переобучение.
 
 В качестве итоговой модели выбран **CatBoost с оптимизацией гиперпараметров через Optuna**, так как она продемонстрировала наиболее стабильную работу и минимальный разрыв между обучающей и тестовой выборками.
+
+## Визуализация результатов
+
+### Несбалансированность целевой переменной
+
+![Несбалансированность целевой переменной](images/target_distribution.png)
+
+### Распределение по категориям
+
+![Распределение по категориям](images/category_distribution1.png)
+
+![Распределение по категориям](images/category_distribution2.png)
+
+### Сравнение моделей
+
+![Сравнение моделей](images/model_comparison.png)
+
+### Важность признаков (CatBoost)
+
+![Feature Importance](images/feature_importance.png)
+
+### SHAP-анализ
+
+![SHAP-анализ](images/shap_analysis.png)
 
 ## Domain expertise
 
