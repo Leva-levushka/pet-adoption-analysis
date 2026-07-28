@@ -1,4 +1,5 @@
 # Predicting Pet Adoption Speed Using Machine Learning
+Machine Learning • Classification • EDA • CatBoost • LightGBM • Optuna
 
 Дипломный проект по Data Science, посвященный анализу факторов, влияющих на скорость пристройства животных, и построению модели машинного обучения для прогнозирования категории Adoption Speed.
 
