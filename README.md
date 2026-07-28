@@ -53,6 +53,8 @@ https://www.kaggle.com/competitions/petfinder-adoption-prediction
 - Jupyter Notebook
 
 ## Структура проекта
+
+```text
 pet-adoption-analysis
 │
 ├── diploma.ipynb
@@ -65,6 +67,7 @@ pet-adoption-analysis
     ├── model_comparison.png
     ├── shap_analysis.png
     └── target_distribution.png
+```
 
 ## Результаты моделирования
 
