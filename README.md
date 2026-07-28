@@ -57,7 +57,7 @@ pet-adoption-analysis
 │
 ├── diploma.ipynb
 ├── presentation.pdf
-└── README.md
+├── README.md
 └── images
     ├── category_distribution1.png
     ├── category_distribution2.png
